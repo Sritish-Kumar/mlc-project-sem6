@@ -1,0 +1,45 @@
+# Python cache and build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Streamlit local secrets and runtime files
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Local NLTK downloads if created inside the project
+nltk_data/
+
+# Redundant compressed dataset; keep data/cyberbullying_tweets.csv tracked.
+data/*.zip

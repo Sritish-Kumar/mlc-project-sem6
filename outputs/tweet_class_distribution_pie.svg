@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="660" viewBox="0 0 980 660" role="img" aria-labelledby="title desc">
+  <title id="title">Tweet class distribution pie chart</title>
+  <desc id="desc">Pie chart showing the distribution of 47,692 cyberbullying tweets across six classes.</desc>
+  <style>
+    .title { font: 700 30px Arial, sans-serif; fill: #1f2933; }
+    .subtitle { font: 16px Arial, sans-serif; fill: #52616b; }
+    .slice-label { font: 700 18px Arial, sans-serif; fill: #ffffff; }
+    .legend-title { font: 700 19px Arial, sans-serif; fill: #1f2933; }
+    .legend-label { font: 16px Arial, sans-serif; fill: #1f2933; dominant-baseline: middle; }
+    .legend-value { font: 15px Arial, sans-serif; fill: #52616b; dominant-baseline: middle; }
+  </style>
+  <rect width="100%" height="100%" fill="#f8fafc" />
+  <text x="70" y="70" class="title">Distribution of Tweets Across 6 Classes</text>
+  <text x="70" y="100" class="subtitle">Dataset: 47,692 labeled cyberbullying tweets</text>
+  <g>
+    <path d="M 310.00 345.00 L 310.00 130.00 A 215.00 215.00 0 0 1 496.89 238.71 Z" fill="#4E79A7" stroke="#ffffff" stroke-width="3"><title>Religion: 7,998 tweets (16.8%)</title></path><path d="M 310.00 345.00 L 496.89 238.71 A 215.00 215.00 0 0 1 494.87 454.77 Z" fill="#F28E2B" stroke="#ffffff" stroke-width="3"><title>Age: 7,992 tweets (16.8%)</title></path><path d="M 310.00 345.00 L 494.87 454.77 A 215.00 215.00 0 0 1 306.69 559.97 Z" fill="#E15759" stroke="#ffffff" stroke-width="3"><title>Gender: 7,973 tweets (16.7%)</title></path><path d="M 310.00 345.00 L 306.69 559.97 A 215.00 215.00 0 0 1 122.00 449.31 Z" fill="#76B7B2" stroke="#ffffff" stroke-width="3"><title>Ethnicity: 7,961 tweets (16.7%)</title></path><path d="M 310.00 345.00 L 122.00 449.31 A 215.00 215.00 0 0 1 125.61 234.43 Z" fill="#59A14F" stroke="#ffffff" stroke-width="3"><title>Not cyberbullying: 7,945 tweets (16.7%)</title></path><path d="M 310.00 345.00 L 125.61 234.43 A 215.00 215.00 0 0 1 310.00 130.00 Z" fill="#EDC948" stroke="#ffffff" stroke-width="3"><title>Other cyberbullying: 7,823 tweets (16.4%)</title></path>
+    <text x="381.35" y="222.34" text-anchor="middle" dominant-baseline="middle" class="slice-label">16.8%</text><text x="451.89" y="346.33" text-anchor="middle" dominant-baseline="middle" class="slice-label">16.8%</text><text x="379.25" y="468.86" text-anchor="middle" dominant-baseline="middle" class="slice-label">16.7%</text><text x="237.07" y="466.72" text-anchor="middle" dominant-baseline="middle" class="slice-label">16.7%</text><text x="168.12" y="342.62" text-anchor="middle" dominant-baseline="middle" class="slice-label">16.7%</text><text x="240.07" y="221.53" text-anchor="middle" dominant-baseline="middle" class="slice-label">16.4%</text>
+  </g>
+  <text x="610" y="165" class="legend-title">Class breakdown</text>
+  <g>
+    <rect x="610" y="203" width="26" height="26" rx="4" fill="#4E79A7" /><text x="652" y="220" class="legend-label">Religion</text><text x="910" y="220" text-anchor="end" class="legend-value">7,998 (16.8%)</text><rect x="610" y="261" width="26" height="26" rx="4" fill="#F28E2B" /><text x="652" y="278" class="legend-label">Age</text><text x="910" y="278" text-anchor="end" class="legend-value">7,992 (16.8%)</text><rect x="610" y="319" width="26" height="26" rx="4" fill="#E15759" /><text x="652" y="336" class="legend-label">Gender</text><text x="910" y="336" text-anchor="end" class="legend-value">7,973 (16.7%)</text><rect x="610" y="377" width="26" height="26" rx="4" fill="#76B7B2" /><text x="652" y="394" class="legend-label">Ethnicity</text><text x="910" y="394" text-anchor="end" class="legend-value">7,961 (16.7%)</text><rect x="610" y="435" width="26" height="26" rx="4" fill="#59A14F" /><text x="652" y="452" class="legend-label">Not cyberbullying</text><text x="910" y="452" text-anchor="end" class="legend-value">7,945 (16.7%)</text><rect x="610" y="493" width="26" height="26" rx="4" fill="#EDC948" /><text x="652" y="510" class="legend-label">Other cyberbullying</text><text x="910" y="510" text-anchor="end" class="legend-value">7,823 (16.4%)</text>
+  </g>
+</svg>
