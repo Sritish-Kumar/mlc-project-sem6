@@ -7,9 +7,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
-
 from preprocess import CLASS_ORDER, clean_text, ensure_nltk_data
-
 
 DATA_PATH = Path("data/cyberbullying_tweets.csv")
 MODEL_DIR = Path("models")

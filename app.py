@@ -43,6 +43,20 @@ st.markdown(
         padding-top: 2rem;
         max-width: 1180px;
     }
+    #MainMenu,
+    header,
+    footer,
+    [data-testid="stToolbar"],
+    [data-testid="stDecoration"],
+    [data-testid="stStatusWidget"],
+    [data-testid="manage-app-button"],
+    [data-testid="stAppDeployButton"],
+    [data-testid="stHeader"],
+    a[href*="streamlit.io"] {
+        display: none !important;
+        visibility: hidden !important;
+        height: 0 !important;
+    }
     .metric-card {
         border: 1px solid #e5e7eb;
         border-radius: 8px;
